@@ -31,21 +31,50 @@ Easily apply and save materials
 <br></br>
 ## UI <a name="ui"></a>
 ### Top Menu <a name="topmenu"></a>
-<img alt="Top Menu" src="https://github.com/DMZScripts/MaterialTextureLoader/blob/fbdf2e050fa9e27c72de5d739255001a87a4da4e/images/TopMenu_001.jpg" width="750">
+<img align="right" alt="Top Menu" src="images/TopMenu_001.jpg" width="500"></img>
+<img align="right" alt="Top Menu" src="images/transparant.png" width="500" height="550"></img>
+- **Load New Textures:** Opens a browser menu where you can multi-select image files to load into the Texture Channels dropdown list. Active Naming Filters will be used to automatically assign textures to Channels. 
+- **Add extra Textures:** Opens a browser menu where you add image files to the Texture Channels dropdown list.
+- **Use All Channels:** When checked, this will make all Texture Channel available for use. For materials that don't use a specific channel, the created map will be accedible by pressing Add Material to Compact / Add Material to Slate.   
+- **Reset:** Reset's the whole UI. Clears all image files from Channel, Material and select 'Default' Preset.
+- **Naming Filters:** Opens Texture Naming Filters menu, where you can activate existing Naming Filters. Up to 10 nameFilter files in 'nameFilters' directory will be listed. 
+- **MTL Installer:** Opens the Installer menu for the Material Texture Loader. Contains Uninstall option and a list of all plugin directories.
+- **Preset:** Dropdown list will all saved Presets. Switching Presets will change the settings directy.
+- **Save Preset:** Opens a Preset Name menu, where you can save the Current Settings under the given name. If Preset name already is in use, will ask to overwrite existing Preset.
+- **Dockable:** Switch between dockable and window dialog mode.
+<br></br>
+<br></br>
+<br></br>
 
 ### Texture Channels <a name="channels"></a>
-<img alt="Texture Channels" src="https://github.com/DMZScripts/MaterialTextureLoader/blob/fbdf2e050fa9e27c72de5d739255001a87a4da4e/images/Channels_001.jpg" width="750"></img>
-- Enabled/Disable Channel: Disables a channel from creating maps, even when a texture is selected in the Texture Dropdown.
-- Channel Texture: Dropdown list where you can select a texture for the material channel.
-- Channel Strength: Set the strength of the texures influence in the material channel.
-- Channel Name/Settings: Button that displays the channel name. Click on the button to open channel specific settings.
-- Show Channel: When a material is created you can select which texture channel is displayed in the viewport.
+<img  align="right" alt="Texture Channels" src="https://github.com/DMZScripts/MaterialTextureLoader/blob/fbdf2e050fa9e27c72de5d739255001a87a4da4e/images/Channels_001.jpg" width="500"></img>
+- **Enabled/Disable Channel**: Disables a channel from creating maps, even when a texture is selected in the Texture Dropdown.
+- **Channel Texture**: Dropdown list where you can select a texture for the material channel.
+- **Channel Strength**: Set the strength of the texures influence in the material channel.
+- **Channel Settings**: Button that displays the channel name. Click on the button to open channel specific settings.
+- **Show Channel**: When a material is created you can select which texture channel is displayed in the viewport.
+<br></br>
+<br></br>
+<br></br>
 
 ### Maps <a name="channels"></a>
-<img alt="Texture Channels" src="https://github.com/DMZScripts/MaterialTextureLoader/blob/fbdf2e050fa9e27c72de5d739255001a87a4da4e/images/Maps_001.jpg" width="400">
+<img align="right" alt="Texture Channels" src="https://github.com/DMZScripts/MaterialTextureLoader/blob/fbdf2e050fa9e27c72de5d739255001a87a4da4e/images/Maps_001.jpg" width="200"></img>
+- **Map Type**: If the selected material class support it, choose between default 3ds Max Bitmaps or render specific texture maps. 
+- **Blur**: Blur value being applied to each texture map.
+- **Mapping Channel**: Sets the mapping channel for each texture map. 
+- **Mapping Type**: Sets the mapping type for each texture map
+  - Tiling: 
+  - Real-world:
+  - Tri-planar:
+  - Spherical:
+<br></br>
+<br></br>
+<br></br>
+
+
 
 ### Material <a name="material"></a>
-<img alt="Material" src="https://github.com/DMZScripts/MaterialTextureLoader/blob/fbdf2e050fa9e27c72de5d739255001a87a4da4e/images/Material_001.jpg" width="400">
+<img alt="Material" src="https://github.com/DMZScripts/MaterialTextureLoader/blob/fbdf2e050fa9e27c72de5d739255001a87a4da4e/images/Material_001.jpg" width="400"></img>
 
 ### Slot <a name="slot"></a>
-<img alt="Texture Channels" src="https://github.com/DMZScripts/MaterialTextureLoader/blob/fbdf2e050fa9e27c72de5d739255001a87a4da4e/images/Slot_001.jpg" width="400">
+<img alt="Texture Channels" src="https://github.com/DMZScripts/MaterialTextureLoader/blob/fbdf2e050fa9e27c72de5d739255001a87a4da4e/images/Slot_001.jpg" width="400"></img>
