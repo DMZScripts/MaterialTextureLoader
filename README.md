@@ -5,15 +5,18 @@ Documentation for Material Texture Loader for 3ds Max
 
 Table of contents
 ---
+---
+- [Description](#description)
+  - [Support](#support)
+  - [Links](#links)
+- [UI](#ui)
+  - [Top Menu](#uitopmenu)
+  - [Texture Channels](#uichannels)
+  - [Map Settings](#uimaps)
+
 
 ## Description<a name="description"></a>
 Material Texture Loader is a plugin for 3ds Max that creates advanced material setups from textures sets.
-
-### Features <a name="features"></a>
-Instant Material Creation
-Advanced mapping setups
-Live update and editing
-Easily apply and save materials
 ### Support <a name="support"></a>
 - 3ds Max 2016-2024
 - Vray(v3-6)
@@ -30,9 +33,10 @@ Easily apply and save materials
 
 <br></br>
 ## UI <a name="ui"></a>
-### Top Menu <a name="topmenu"></a>
-<img align="right" alt="Top Menu" src="images/TopMenu_001.jpg" width="500"></img>
-<img align="right" alt="Top Menu" src="images/transparant.png" width="500" height="550"></img>
+### Top Menu <a name="uitopmenu"></a>
+<img align="right" alt="Top Menu" src="images/TopMenu_001.jpg" width="400"></img>
+<img align="right" alt="Top Menu" src="images/TopMenu_001.jpg" width="400"></img>
+
 - **Load New Textures:** Opens a browser menu where you can multi-select image files to load into the Texture Channels dropdown list. Active Naming Filters will be used to automatically assign textures to Channels. 
 - **Add extra Textures:** Opens a browser menu where you add image files to the Texture Channels dropdown list.
 - **Use All Channels:** When checked, this will make all Texture Channel available for use. For materials that don't use a specific channel, the created map will be accedible by pressing Add Material to Compact / Add Material to Slate.   
@@ -43,21 +47,29 @@ Easily apply and save materials
 - **Save Preset:** Opens a Preset Name menu, where you can save the Current Settings under the given name. If Preset name already is in use, will ask to overwrite existing Preset.
 - **Dockable:** Switch between dockable and window dialog mode.
 <br></br>
+
+
+
+### Texture Channels <a name="uichannels"></a>
+<img src="images/Channels_001.jpg" align="right" width="600" alt="Texture Channels"></img>
+<img src="images/transparant.png" align="right" width="600" alt="Texture Channels"></img> 
+<dl>
+  <dt>Enabled/Disable Channel</dt>
+  <dd>Disables a channel from creating maps, even when a texture is selected in the Texture Dropdown.</dd>
+  <dt>Channel Texture</dt>
+  <dd>Dropdown list where you can select a texture for the material channel.</dd>
+  <dt>Channel Strenght</dt>
+  <dd>Set the strength of the texures influence in the material channel.</dd>
+  <dt>Channel Settings</dt>
+  <dd>Button that displays the channel name. Click on the button to open channel specific settings.</dd>
+  <dt>Show Channel</dt>
+  <dd>When a material is created you can select which texture channel is displayed in the viewport.</dd>    
+</dl>
+<br></br>
 <br></br>
 <br></br>
 
-### Texture Channels <a name="channels"></a>
-<img  align="right" alt="Texture Channels" src="https://github.com/DMZScripts/MaterialTextureLoader/blob/fbdf2e050fa9e27c72de5d739255001a87a4da4e/images/Channels_001.jpg" width="500"></img>
-- **Enabled/Disable Channel**: Disables a channel from creating maps, even when a texture is selected in the Texture Dropdown.
-- **Channel Texture**: Dropdown list where you can select a texture for the material channel.
-- **Channel Strength**: Set the strength of the texures influence in the material channel.
-- **Channel Settings**: Button that displays the channel name. Click on the button to open channel specific settings.
-- **Show Channel**: When a material is created you can select which texture channel is displayed in the viewport.
-<br></br>
-<br></br>
-<br></br>
-
-### Maps <a name="channels"></a>
+### Maps Settings<a name="uimaps"></a>
 <img align="right" alt="Texture Channels" src="https://github.com/DMZScripts/MaterialTextureLoader/blob/fbdf2e050fa9e27c72de5d739255001a87a4da4e/images/Maps_001.jpg" width="200"></img>
 - **Map Type**: If the selected material class support it, choose between default 3ds Max Bitmaps or render specific texture maps. 
 - **Blur**: Blur value being applied to each texture map.
@@ -72,8 +84,7 @@ Easily apply and save materials
 <br></br>
 
 
-
-### Material <a name="material"></a>
+### Material Settings <a name="material"></a>
 <img alt="Material" src="https://github.com/DMZScripts/MaterialTextureLoader/blob/fbdf2e050fa9e27c72de5d739255001a87a4da4e/images/Material_001.jpg" width="400"></img>
 
 ### Slot <a name="slot"></a>
