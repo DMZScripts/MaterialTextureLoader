@@ -37,7 +37,7 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 <table>
   <tr>
     <td width="60%">
-       <dl>
+      <dl>
         <dt>Load New Textures</dt>
         <dd>Opens a browser menu where you can multi-select image files to load into the Texture Channels dropdown list. Active Naming Filters will be used to automatically assign textures to Channels.</dd>
         <dt>Add extra Textures</dt>
@@ -62,7 +62,7 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
     <td width="60%">
        <dl>
         <b><em>MTL Installer</em></b>
-        <dd><small>Opens the Installer menu for the Material Texture Loader. Contains Uninstall option and a list of all plugin directories.</small></dd>
+        <dd>Opens the Installer menu for the Material Texture Loader. Contains Uninstall option and a list of all plugin directories.</dd>
         <b><em>Preset</em></b>
         <dd>Dropdown list will all saved Presets. Switching Presets will change the settings directy.</dd>
         <b><em>Save Preset</em></b>
@@ -71,13 +71,35 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
         <dd>Switch between dockable and window dialog mode.</dd>
       </dl>
     </td>
-    <td width=500" valign="top">
+    <td width="40%" valign="top">
       <img alt="Top Menu" src="images/TopMenu_2_001.jpg" width="400"></img>
     </td>
   </tr>
 </table>
 
 ### Texture Channels <a name="uichannels"></a>
+<table>
+  <tr>
+    <td width="60%">
+      <dl>
+        <b><em>Enabled/Disable Channel</em></b>
+        <dd>Disables a channel from creating maps, even when a texture is selected in the Texture Dropdown.</dd>
+        <b><em>Channel Texture</em></b>
+        <dd>Dropdown list where you can select a texture for the material channel.</dd>
+        <b><em>Channel Strenght</em></b>
+        <dd>Set the strength of the texures influence in the material channel.</dd>
+        <b><em>Channel Settings</em></b>
+        <dd>Button that displays the channel name. Click on the button to open channel specific settings.</dd>
+        <b><em>Show Channel</em></b>
+        <dd>When a material is created you can select which texture channel is displayed in the viewport.</dd>    
+      </dl>
+    </td>
+    <td width="40%" valign="top">
+      <img src="images/Channels_001.jpg" align="right" width="600" alt="Texture Channels"></img>
+    </td>
+  </tr>
+</table>
+
 <img src="images/Channels_001.jpg" align="right" width="600" alt="Texture Channels"></img>
 <img src="images/transparant.png" align="right" width="600" alt="Texture Channels"></img> 
 <dl>
