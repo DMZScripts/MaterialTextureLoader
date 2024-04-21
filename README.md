@@ -33,22 +33,49 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 
 <br></br>
 ## UI <a name="ui"></a>
-### Top Menu <a name="uitopmenu"></a>
-<img align="right" alt="Top Menu" src="images/TopMenu_001.jpg" width="400"></img>
-<img align="right" alt="Top Menu" src="images/TopMenu_001.jpg" width="400"></img>
+### Top Menu - Files <a name="uitopmenu"></a>
+<table>
+  <tr>
+    <td width="60%">
+       <dl>
+        <dt>Load New Textures</dt>
+        <dd>Opens a browser menu where you can multi-select image files to load into the Texture Channels dropdown list. Active Naming Filters will be used to automatically assign textures to Channels.</dd>
+        <dt>Add extra Textures</dt>
+        <dd>Opens a browser menu where you add image files to the Texture Channels dropdown list.</dd>
+        <dt>Use All Channels</dt>
+        <dd>When checked, this will make all Texture Channel available for use. For materials that don't use a specific channel, the created map will be accedible by pressing Add Material to Compact / Add Material to Slate.</dd>
+        <dt>Reset</dt>
+        <dd>Reset's the whole UI. Clears all image files from Channel, Material and select 'Default' Preset.</dd>
+        <dt>Naming Filters</dt>
+        <dd>Opens Texture Naming Filters menu, where you can activate existing Naming Filters. Up to 10 nameFilter files in 'nameFilters' directory will be listed. </dd>
+      </dl>
+    </td>
+    <td width=500" valign="top">
+      <img alt="Top Menu" src="images/TopMenu_1_001.jpg" width="400"></img>
+    </td>
+  </tr>
+</table>
 
-- **Load New Textures:** Opens a browser menu where you can multi-select image files to load into the Texture Channels dropdown list. Active Naming Filters will be used to automatically assign textures to Channels. 
-- **Add extra Textures:** Opens a browser menu where you add image files to the Texture Channels dropdown list.
-- **Use All Channels:** When checked, this will make all Texture Channel available for use. For materials that don't use a specific channel, the created map will be accedible by pressing Add Material to Compact / Add Material to Slate.   
-- **Reset:** Reset's the whole UI. Clears all image files from Channel, Material and select 'Default' Preset.
-- **Naming Filters:** Opens Texture Naming Filters menu, where you can activate existing Naming Filters. Up to 10 nameFilter files in 'nameFilters' directory will be listed. 
-- **MTL Installer:** Opens the Installer menu for the Material Texture Loader. Contains Uninstall option and a list of all plugin directories.
-- **Preset:** Dropdown list will all saved Presets. Switching Presets will change the settings directy.
-- **Save Preset:** Opens a Preset Name menu, where you can save the Current Settings under the given name. If Preset name already is in use, will ask to overwrite existing Preset.
-- **Dockable:** Switch between dockable and window dialog mode.
-<br></br>
-
-
+### Top Menu - Presets <a name="uitopmenu"></a>
+<table>
+  <tr>
+    <td width="60%">
+       <dl>
+        <b><em>MTL Installer</em></b>
+        <dd><small>Opens the Installer menu for the Material Texture Loader. Contains Uninstall option and a list of all plugin directories.</small></dd>
+        <b><em>Preset</em></b>
+        <dd>Dropdown list will all saved Presets. Switching Presets will change the settings directy.</dd>
+        <b><em>Save Preset</em></b>
+        <dd>Opens a Preset Name menu, where you can save the Current Settings under the given name. If Preset name already is in use, will ask to overwrite existing Preset.</dd>
+        <b><em>Dockable</em></b>
+        <dd>Switch between dockable and window dialog mode.</dd>
+      </dl>
+    </td>
+    <td width=500" valign="top">
+      <img alt="Top Menu" src="images/TopMenu_2_001.jpg" width="400"></img>
+    </td>
+  </tr>
+</table>
 
 ### Texture Channels <a name="uichannels"></a>
 <img src="images/Channels_001.jpg" align="right" width="600" alt="Texture Channels"></img>
@@ -69,7 +96,7 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 <br></br>
 <br></br>
 
-### Maps Settings<a name="uimaps"></a>
+### Settings - Map<a name="uimaps"></a>
 <img align="right" alt="Texture Channels" src="https://github.com/DMZScripts/MaterialTextureLoader/blob/fbdf2e050fa9e27c72de5d739255001a87a4da4e/images/Maps_001.jpg" width="200"></img>
 - **Map Type**: If the selected material class support it, choose between default 3ds Max Bitmaps or render specific texture maps. 
 - **Blur**: Blur value being applied to each texture map.
