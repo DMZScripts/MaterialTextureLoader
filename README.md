@@ -34,27 +34,41 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 <br></br>
 ## UI <a name="ui"></a>
 ### Top Menu - Files <a name="uitopmenu"></a>
-<table>
-  <tr>
-    <td width="60%">
-      <dl>
-        <dt>Load New Textures</dt>
-        <dd>Opens a browser menu where you can multi-select image files to load into the Texture Channels dropdown list. Active Naming Filters will be used to automatically assign textures to Channels.</dd>
-        <dt>Add extra Textures</dt>
-        <dd>Opens a browser menu where you add image files to the Texture Channels dropdown list.</dd>
-        <dt>Use All Channels</dt>
-        <dd>When checked, this will make all Texture Channel available for use. For materials that don't use a specific channel, the created map will be accedible by pressing Add Material to Compact / Add Material to Slate.</dd>
-        <dt>Reset</dt>
-        <dd>Reset's the whole UI. Clears all image files from Channel, Material and select 'Default' Preset.</dd>
-        <dt>Naming Filters</dt>
-        <dd>Opens Texture Naming Filters menu, where you can activate existing Naming Filters. Up to 10 nameFilter files in 'nameFilters' directory will be listed. </dd>
-      </dl>
-    </td>
-    <td width=500" valign="top">
-      <img alt="Top Menu" src="images/TopMenu_1_001.jpg" width="400"></img>
-    </td>
-  </tr>
-</table>
+<img align="left" alt="Top Menu" src="images/TopMenu_1_001.jpg"></img>
+<br clear="left"/>
+<details>
+  <summary><b>Load New Textures</b>: <em>Open image browser menu to load image files.</em></summary>
+  
+  > You can multi-select any 3ds max supported image files.  
+  > Selected files will be place in the Texture Channels dropdown list.  
+  > Active Naming Filters will be used to automatically assign textures to Channels.
+  > Previously loaded files will be removed.
+</details>
+<details>
+  <summary><b>Add Extra Textrues</b>:  Open image browser menu, to add image files. </summary>
+
+  > where you add image files to the Texture Channels dropdown list.
+</details>
+<details>
+  <summary><b>Use All Channels</b>: Activate all texture Channels</summary>
+
+  > When materials don't use every texture channel, this will make all Texture Channel available.  
+  > Maps that are created in this way are accessable after pressing _Add Material to Compact_ / _Add Material to Slate_.  
+  > Maps will be placed adjacent to the material that is created.  
+</details>
+
+<dl>
+  <b><em>Load New Textures</em></b>
+  <dd>Opens a browser menu where you can multi-select image files to load into the Texture Channels dropdown list. Active Naming Filters will be used to automatically assign textures to Channels.</dd>
+  <b><em>Add extra Textures</em></b>
+  <dd>Opens a browser menu where you add image files to the Texture Channels dropdown list.</dd>
+  <b><em>Use All Channels</em></b>
+  <dd>When checked, this will make all Texture Channel available for use. For materials that don't use a specific channel, the created map will be accedible by pressing Add Material to Compact / Add Material to Slate.</dd>
+  <b><em>Reset</em></b>
+  <dd>Reset's the whole UI. Clears all image files from Channel, Material and select 'Default' Preset.</dd>
+  <b><em>Naming Filters</em></b>
+  <dd>Opens Texture Naming Filters menu, where you can activate existing Naming Filters. Up to 10 nameFilter files in 'nameFilters' directory will be listed. </dd>
+</dl>
 
 ### Top Menu - Presets <a name="uitopmenu"></a>
 <table>
