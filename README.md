@@ -1,23 +1,23 @@
-Documentation
-===
-# MaterialTextureLoader
-Documentation for Material Texture Loader for 3ds Max
+<h1 align ="center">Material Texture Loader</h1>
+<div align="center">Advanced material creation plugin for 3ds max</div>
+<div align="center"><a href="https://youtu.be/HqMXw3Hht64?si=ejwyelh94iZaYcg1">Youtube</a> - <a href="https://dmz.gumroad.com/l/ScriptBox">Gumroad</a> - <a href="https://www.scriptspot.com/3ds-max/scripts/script-box">Scriptspot</a></div>
 
-Table of contents
----
----
-- [Description](#description)
-  - [Support](#support)
-  - [Links](#links)
-- [UI](#ui)
+***
+### Table of contents
+- [Support](#support)
+- [Instalation](#instalation)
+- [User Interface](#ui)
   - [Top Menu](#uitopmenu)
   - [Texture Channels](#uichannels)
   - [Map Settings](#uimaps)
 
-
-## Description<a name="description"></a>
+### Description <a name="description"></a>
+Documentation for UI an maxScript API.  
 Material Texture Loader is a plugin for 3ds Max that creates advanced material setups from textures sets.
-### Support <a name="support"></a>
+***
+
+
+# Support <a name="support"></a>
 - 3ds Max 2016-2024
 - Vray(v3-6)
 - Corona(v5-10)
@@ -26,70 +26,71 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 - FStorm
 - Octane
 - Physical, PBR and Standard
-### Links <a name="links"></a>
-- [Youtube](https://youtu.be/HqMXw3Hht64?si=ejwyelh94iZaYcg1)
-- [Gumroad](https://dmz.gumroad.com/l/ScriptBox)
-- [Scriptspot](https://www.scriptspot.com/3ds-max/scripts/script-box)
 
-<br></br>
-## UI <a name="ui"></a>
+***
+# User Interface <a name="ui"></a>
 ### Top Menu - Files <a name="uitopmenu"></a>
-<img align="left" alt="Top Menu" src="images/TopMenu_1_001.jpg"></img>
-<br clear="left"/>
+<img align="left" alt="Top Menu" src="images/TopMenu_1_001.jpg"></img><br clear="left"/>
 <details>
-  <summary><b>Load New Textures</b>: <em>Open image browser menu to load image files.</em></summary>
+  <summary><b>Load New Textures</b>: Open texture file browser to select new files.</summary>
   
   > You can multi-select any 3ds max supported image files.  
   > Selected files will be place in the Texture Channels dropdown list.  
-  > Active Naming Filters will be used to automatically assign textures to Channels.
   > Previously loaded files will be removed.
+  > Active Naming Filters will be used to automatically assign textures to Channels.
 </details>
 <details>
-  <summary><b>Add Extra Textrues</b>:  Open image browser menu, to add image files. </summary>
+  <summary><b>Add Extra Textrues</b>:  Open texture file browser, to select additional files. </summary>
 
-  > where you add image files to the Texture Channels dropdown list.
+  > You can multi-select any 3ds max supported image files.  
+  > Selected files will be added to the Texture Channels dropdown list.  
+  > Active Naming Filters will be used to automatically re-assign textures to Channels.
 </details>
 <details>
-  <summary><b>Use All Channels</b>: Activate all texture Channels</summary>
+  <summary><b>Use All Channels</b>: Activate all texture Channels.</summary>
 
   > When materials don't use every texture channel, this will make all Texture Channel available.  
   > Maps that are created in this way are accessable after pressing _Add Material to Compact_ / _Add Material to Slate_.  
   > Maps will be placed adjacent to the material that is created.  
 </details>
+<details>
+  <summary><b>Reset</b>: Reset entire UI back to Deafult.</summary>
 
-<dl>
-  <b><em>Load New Textures</em></b>
-  <dd>Opens a browser menu where you can multi-select image files to load into the Texture Channels dropdown list. Active Naming Filters will be used to automatically assign textures to Channels.</dd>
-  <b><em>Add extra Textures</em></b>
-  <dd>Opens a browser menu where you add image files to the Texture Channels dropdown list.</dd>
-  <b><em>Use All Channels</em></b>
-  <dd>When checked, this will make all Texture Channel available for use. For materials that don't use a specific channel, the created map will be accedible by pressing Add Material to Compact / Add Material to Slate.</dd>
-  <b><em>Reset</em></b>
-  <dd>Reset's the whole UI. Clears all image files from Channel, Material and select 'Default' Preset.</dd>
-  <b><em>Naming Filters</em></b>
-  <dd>Opens Texture Naming Filters menu, where you can activate existing Naming Filters. Up to 10 nameFilter files in 'nameFilters' directory will be listed. </dd>
-</dl>
+  > Selects Default as Preset  
+  > Clears all image files from Texture Channels  
+  > Clears Material Slot
+</details>
+<details>
+  <summary><b>Naming Filters</b>: Select active Naming Filters.</summary>
+
+  > Naming FIlters are used for automatic Texture Channel selection.  
+  > You can activate any combination of listed Naming Filters.  
+  > Up to 10 nameFilter files in _nameFilters_ directory will be listed.  
+</details><h2> </h2>
+
 
 ### Top Menu - Presets <a name="uitopmenu"></a>
-<table>
-  <tr>
-    <td width="60%">
-       <dl>
-        <b><em>MTL Installer</em></b>
-        <dd>Opens the Installer menu for the Material Texture Loader. Contains Uninstall option and a list of all plugin directories.</dd>
-        <b><em>Preset</em></b>
-        <dd>Dropdown list will all saved Presets. Switching Presets will change the settings directy.</dd>
-        <b><em>Save Preset</em></b>
-        <dd>Opens a Preset Name menu, where you can save the Current Settings under the given name. If Preset name already is in use, will ask to overwrite existing Preset.</dd>
-        <b><em>Dockable</em></b>
-        <dd>Switch between dockable and window dialog mode.</dd>
-      </dl>
-    </td>
-    <td width="40%" valign="top">
-      <img alt="Top Menu" src="images/TopMenu_2_001.jpg" width="400"></img>
-    </td>
-  </tr>
-</table>
+<img align="left" alt="Top Menu" src="images/TopMenu_2_001.jpg"></img><br clear="left"/>
+<details>
+  <summary><b>MTL Installer</b>: Opens Installer menu.</summary>
+
+  > Contains Uninstall option and a list of all plugin installation directories.
+</details>
+<details>
+  <summary><b>Preset</b>: Dropdown list of all saved settings.</summary>  
+  
+  > Switching Presets will change all settings directy.  
+  > When Update is active, you can still switch Presets. Material type will be locked to current Material.
+</details>
+<details>
+  <summary><b>Save Preset</b>: Save current settings.</summary>
+
+  > Opens a Preset Name menu, where you can save the Current Settings under the given name.
+  > If Preset name already exists, menu will ask if you want to overwrite existing Preset.
+</details>
+<details>
+  <summary><b>Dockable</b>:Switch between dockable and window dialog mode.</summary>
+</details><h2> </h2>
 
 ### Texture Channels <a name="uichannels"></a>
 <table>
