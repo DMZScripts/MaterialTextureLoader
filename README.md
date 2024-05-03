@@ -96,8 +96,10 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 
 <details>
   <summary><b>Dockable</b>:Switch between dockable and window dialog mode.</summary>
-</details><h2> </h2>
+</details>
 
+
+<h2> </h2>
 <img src="images/Channels_001.jpg" alt="Texture Channels" align="right" width="400"></img>
 <h3>Channels</h3><a name="ui_channels"></a>
 <details>
@@ -134,15 +136,17 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 
   > Only 1 channel can be displayed. 
   > Only works when a material is created.
-</details><h2> </h2>
+</details>
 
 
+<h2> </h2>
 <h3>Channels - Settings</h3><a name="ui_channels_settings"></a>
 <details>
   <summary></summary>
-</details><h2> </h2>
+</details>
 
 
+<h2> </h2>
 <img src="images/Maps_001.jpg" alt="Texture Channels" align="right"></img>
 <h3>Map Settings</h3><a name="ui_maps"></a>
 Not all renderers support every feature in the map settings. UI controls will be disabled if these options are not available.
@@ -156,7 +160,7 @@ Not all renderers support every feature in the map settings. UI controls will be
 <details>
   <summary><b>Blur</b>: Blur value applied to each texture map</summary>
 
-  > Blur is applied to all channels equally. There is no option for channel specifc blur values.  
+  > - Blur is applied to all channels equally. There is no option for channel specifc blur values.  
 </details>
 <details>
   <summary><b>Mapping Channel</b> Set mapping channel for all texture maps.</summary>
@@ -178,17 +182,49 @@ Not all renderers support every feature in the map settings. UI controls will be
   <summary><b>Non-Uniform Size</b>: Enable.</summary>
 
   >  
-</details><h2> </h2>
+</details>
 
 
+<h2> </h2>
 <img src="images/Material_001.jpg" alt="Material" align="right"></img>
 <h3>Material Settings</h3><a name="material"></a>
+<details>
+  <summary><b>Active Render Material</b>: Set Material Type to active renderer.</summary>
+
+  > When active automatically switches Material Type when renderer is changed.  
+  > Will de-activate when activating Update and existing material is not compatible will active Renderer.  
+</details>
+<details>
+  <summary><b>Material Type</b>: Select from dropdown list with any supported materials.</summary>
+
+  > De-activates Active Render Material when you select other material type that is compatible with the active renderer.  
+</details>
+<details>
+  <summary><b>Diffuse</b>: Set the materials base diffuse color</summary>  
+</details>
+<details>
+  <summary><b>Reflection</b>: Set the materials base reflection color</summary>  
+</details>
+<details>
+  <summary><b>Glossiness</b>: Set the materials base glossiness value</summary>  
+</details>
+<details>
+  <summary><b>Refl. IOR</b>: Set the Materials base IOR value</summary>  
+
+  > Uncheck checkbox will set IOR value to the materials max IOR value. 
+</details>
+<details>
+  <summary><b>2-Sided</b>b>: Makes the material 2-sided</summary>  
+
+  > Depending on the Material Type an extra 2-sided material is created.
+  > With Update active you can switch between 2-sided and not 2-sided. Materials in material editors will be correctly updated.  
+  > When Updating a material to being not 2-sided. The old 2-sided material is still applied to existing objects.  
+</details>
+<details>
+  <summary><b>ID</b>: Set the materials ID Channel</summary>  
+</details>
 
 
 <h2> </h2>
-
 <img src="images/Slot_001.jpg" alt="Texture Channels" align="right"></img>
 <h3>Material Slot</h3><a name="material"></a>
-
-
-<h2> </h2>
