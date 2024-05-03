@@ -214,7 +214,7 @@ Not all renderers support every feature in the map settings. UI controls will be
   > Uncheck checkbox will set IOR value to the materials max IOR value. 
 </details>
 <details>
-  <summary><b>2-Sided</b>b>: Makes the material 2-sided</summary>  
+  <summary><b>2-Sided</b>: Makes the material 2-sided</summary>  
 
   > Depending on the Material Type an extra 2-sided material is created.
   > With Update active you can switch between 2-sided and not 2-sided. Materials in material editors will be correctly updated.  
