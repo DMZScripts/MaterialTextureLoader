@@ -31,8 +31,8 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 
 ***
 <h1>User Interface</h1><a name="ui"></a>
-<img src="images/TopMenu_001.jpg" alt="Top Menu" align="right" width="400"></img>
 <h3>Top Menu</h3> <a name="ui_topmenu_files"></a>
+<img src="images/TopMenu_001.jpg" alt="Top Menu" align="right" width="400"></img>
 <details>
   <summary><b>Load New Textures</b>: Open texture file browser to select new files.</summary>
   
@@ -100,8 +100,8 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 
 
 <h2> </h2>
-<img src="images/Channels_001.jpg" alt="Texture Channels" align="right" width="400"></img>
 <h3>Channels</h3><a name="ui_channels"></a>
+<img src="images/Channels_001.jpg" alt="Texture Channels" align="right" width="400"></img>
 <details>
   <summary><b>Enable/Disable Channel</b>: Disable or enabled a channel from creating maps. </summary>
 
@@ -137,7 +137,7 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
   > Only 1 channel can be displayed. 
   > Only works when a material is created.
 </details>
-
+<br></br>
 
 <h2> </h2>
 <h3>Channels - Settings</h3><a name="ui_channels_settings"></a>
