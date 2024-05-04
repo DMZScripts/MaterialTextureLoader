@@ -6,7 +6,7 @@
 ### Table of contents
 - [Support](#support)
   - [Renderers](#renderers)
-  - [Installation](#instalation)
+  - [Installation](#installation)
   - [Add a button after installation](#button)
   - [Create custom Naming Filters](#namingFilters)
 - [User Interface](#ui)
@@ -16,7 +16,7 @@
   - [Maps](#ui_maps)
   - [Material](#ui_material)
   - [Slot](#ui_slot)
-  - [Modifiers](#ui_modifers)
+  - [Modifiers](#ui_modifiers)
 
 ### Description <a name="description"></a>
 Documentation for UI an maxScript API.  
@@ -36,7 +36,7 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 - Physical, PBR and Standard
 <h2> </h2>
 
-### Installation <a name="#instalation"></a>
+### Installation <a name="#installation"></a>
 1. Drag and Drop the latest version of "MTL_v1.x install.mzp" into the 3ds max viewport.
     Or run the script inside 3ds max. Scripting > Run Script > select "MTL_v1.x install.mzp" > Open
 2. On succesfull install, press Open MTL to start using the script.
