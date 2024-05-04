@@ -41,7 +41,7 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
     Or run the script inside 3ds max. Scripting > Run Script > select "MTL_v1.x install.mzp" > Open
 2. On succesfull install, press Open MTL to start using the script.
 
-### Add a button after installation <a name="button">
+### Add a button after installation <a name="button"></a>
 1. Restart 3ds Max.
 2. In 3ds Max go to Customize > Customize User Interface > Toolbars > Category > DMZ.
 3. Drag "Material Texture Loader" into a toolbar. 
