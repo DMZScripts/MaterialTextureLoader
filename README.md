@@ -128,6 +128,32 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 <h2> </h2>
 <img src="images/Channels_Settings_001.jpg" align="right"></img>
 <h3>Channels - Settings</h3>
+<details>
+  <summary><b>Color Space</b>: Choose between different type of color space input for texture file.</summary>
+
+</details>
+<details>
+  <summary><b>Auto linear-sRGB</b>: when sRGB Color Space is selected and 32bit images are loaded, load files as linear-sRGB.</summary>
+
+</details>
+<details>
+  <summary><b>Gamma</b>: Gamma input value for texture file.</summary>
+
+</details>
+<details>
+  <summary><b>Color Correction</b>: Inlcude a color correction map for the texture channel.</summary>
+
+</details>
+<details>
+  <summary><b>Inver Color</b>: Invert the colors of the texture channel.</summary>
+
+  > Will add an extra map to invert colors, or use existing map settings if possible.  
+</details>
+<details>
+  <summary><b>Set</b>: Accepts the current settings for the texture channel.</summary>
+
+  > Click the 'X' icon if you wish to cancel setting changes.  
+</details>
 <h2> </h2>
 <img src="images/Maps_001.jpg" align="right"></img>
 <h3>Map Settings</h3>
