@@ -1,26 +1,32 @@
 <h1 align ="center">Material Texture Loader</h1>
 <div align="center">Advanced material creation plugin for 3ds max</div>
-<div align="center"><a href="https://youtu.be/HqMXw3Hht64?si=ejwyelh94iZaYcg1">Youtube</a> - <a href="https://dmz.gumroad.com/l/ScriptBox">Gumroad</a> - <a href="https://www.scriptspot.com/3ds-max/scripts/script-box">Scriptspot</a></div>
+<div align="center"><a href="https://youtu.be/WaiYY6T3cwg?si=zFbhcXlvGxeUF19K">Youtube</a> - <a href="https://dmz.gumroad.com/l/MaterialTextureLoader">Gumroad</a> - <a href="https://www.scriptspot.com/3ds-max/scripts/material-texture-loader">Scriptspot</a></div>
 
 ***
 ### Table of contents
 - [Support](#support)
-- [Instalation](#instalation)
+  - [Renderers](#renderers)
+  - [Installation](#instalation)
+  - [Add a button after installation](#button)
+  - [Create custom Naming Filters](#namingFilters)
 - [User Interface](#ui)
-  - [Top Menu - Files](#ui_topmenu_files)
-  - [Top Menu - Presets](#ui_topmenu_presets)
+  - [Top Menu](#ui_topmenu)
   - [Channels](#ui_channels)
-  - [Channels - Channel Settings](#ui_channels_settings)
-  - [Map Settings](#uimaps)
+  - [Channel Settings](#ui_channelsettings)
+  - [Maps](#ui_maps)
+  - [Material](#ui_material)
+  - [Slot](#ui_slot)
+  - [Modifiers](#ui_modifers)
 
 ### Description <a name="description"></a>
 Documentation for UI an maxScript API.  
 Material Texture Loader is a plugin for 3ds Max that creates advanced material setups from textures sets.
 ***
 
-
 # Support <a name="support"></a>
-- 3ds Max 2016-2024
+- 3ds Max 2016-2025
+
+### Renderers <a name="renderers"></a>
 - Vray(v3-6)
 - Corona(v5-10)
 - Redshift
@@ -28,11 +34,31 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 - FStorm
 - Octane
 - Physical, PBR and Standard
+<h2> </h2>
+
+### Installation <a name="#instalation"></a>
+1. Drag and Drop the latest version of "MTL_v1.x install.mzp" into the 3ds max viewport.
+    Or run the script inside 3ds max. Scripting > Run Script > select "MTL_v1.x install.mzp" > Open
+2. On succesfull install, press Open MTL to start using the script.
+
+### Add a button after installation <a name="button">
+1. Restart 3ds Max.
+2. In 3ds Max go to Customize > Customize User Interface > Toolbars > Category > DMZ.
+3. Drag "Material Texture Loader" into a toolbar. 
+<h2> </h2>
+
+### Create custom Naming Filters <a name="namingFilters"></a>
+1. Go to your 3ds max userscripts folder, DMZ folder (eg: C:\Users\[Username]\AppData\Local\Autodesk\3dsMax\2018 - 64bit\ENU\userscripts\DMZ\MTL\namingFilters),
+2. Any .ini file (eg. 'nameFilter_01 Default.ini') needs to be placed in that folder and must start with 'nameFilter_'.
+3. Do not change the naming of the channels inside the file (eg. 'diffuse=', 'ambient=').
+4. Add any word after the equal ('=') character, separated by a comma (','). These words are used to select textures for the right channel.
+5. You can have up to 12 different .ini naming filter files, which all can be separately activated and combined in the MTL.
+--
 
 ***
-<h1>User Interface</h1>
+<h1>User Interface</h1><a name="ui"></a>
 <img src="images/TopMenu_001.jpg" align="right" width="400"></img>
-<h3>Top Menu</h3>
+<h3>Top Menu</h3><a name="ui_topmenu"></a>
 <details>
   <summary><b>Load New Textures</b>: Open texture file browser to select new files</summary>
 
@@ -93,7 +119,7 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 </details>
 <h2> </h2>
 <img src="images/Channels_001.jpg" align="right" width="400"></img>
-<h3>Channels</h3>
+<h3>Channels</h3><a name="ui_channels"></a>
 <details>
   <summary><b>Enable/Disable Channel</b>: Disable or enabled a channel from creating maps</summary>
 
@@ -127,7 +153,7 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 </details>
 <h2> </h2>
 <img src="images/Channels_Settings_001.jpg" align="right"></img>
-<h3>Channels - Settings</h3>
+<h3>Channel Settings</h3><a name="ui_channelsettings"></a>
 <details>
   <summary><b>Color Space</b>: Choose between different type of color space input for texture file.</summary>
 
@@ -156,7 +182,7 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 </details>
 <h2> </h2>
 <img src="images/Maps_001.jpg" align="right"></img>
-<h3>Map Settings</h3>
+<h3>Maps</h3><a name="ui_maps"></a>
 <details>
   <summary><b>Map Type</b>: Choose between standard and render specific texture map</summary>
 
@@ -188,7 +214,7 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 </details>
 <h2> </h2>
 <img src="images/Material_001.jpg" align="right"></img>
-<h3>Material Settings</h3>
+<h3>Material</h3><a name="ui_material"></a>
 <details>
   <summary><b>Active Render Material</b>: Set Material Type to active renderer.</summary>
 
@@ -252,7 +278,7 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 </details>
 <h2> </h2>
 <img src="images/Slot_001.jpg" align="right"></img>
-<h3>Slot</h3>
+<h3>Slot</h3><a name="ui_slot"></a>
 <details>
   <summary><b>Material Button</b>: Created material can be dragged into objects, editors or material slots.</summary>
 
@@ -296,7 +322,7 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 
 </details>
 <h2> </h2>
-<h3>Modifiers</h3>
+<h3>Modifiers</h3><a name="ui_modifiers"></a>
 <details>
   <summary><b>uvMap</b>: If checked and when using Add Material to Selection, add uv_map modifer to selected objects.</summary>
 
@@ -314,3 +340,4 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
   <summary><b>Center Point</b>: Sets the center point of the displacments height value.</summary>
 
 </details>
+
