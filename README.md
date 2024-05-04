@@ -53,7 +53,6 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 3. Do not change the naming of the channels inside the file (eg. 'diffuse=', 'ambient=').
 4. Add any word after the equal ('=') character, separated by a comma (','). These words are used to select textures for the right channel.
 5. You can have up to 12 different .ini naming filter files, which all can be separately activated and combined in the MTL.
---
 
 ***
 <h1>User Interface</h1><a name="ui"></a>
