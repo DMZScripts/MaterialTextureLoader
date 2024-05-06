@@ -1,6 +1,6 @@
 <h1 align ="center">Material Texture Loader</h1>
 <div align="center">Advanced material creation plugin for 3ds max</div>
-<div align="center"><a href="https://youtu.be/WaiYY6T3cwg?si=zFbhcXlvGxeUF19K">Youtube</a> - <a href="https://dmz.gumroad.com/l/MaterialTextureLoader">Gumroad</a> - <a href="https://www.scriptspot.com/3ds-max/scripts/material-texture-loader">Scriptspot</a></div>
+<div align="center"><a href="https://youtu.be/WaiYY6T3cwg?si=zFbhcXlvGxeUF19K" target="_blank" rel="noopener noreferrer">Youtube</a> - <a href="https://dmz.gumroad.com/l/MaterialTextureLoader" target="_blank" rel="noopener noreferrer">Gumroad</a> - <a href="https://www.scriptspot.com/3ds-max/scripts/material-texture-loader" target="_blank" rel="noopener noreferrer">Scriptspot</a></div>
 
 ***
 ### Table of contents
