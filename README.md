@@ -1,8 +1,8 @@
 <h1 align ="center">Material Texture Loader</h1>
 <div align="center">Advanced material creation plugin for 3ds max</div>
 <div align="center"><a href="https://youtu.be/WaiYY6T3cwg?si=zFbhcXlvGxeUF19K" target="_blank" rel="noopener noreferrer">Youtube</a> - <a href="https://dmz.gumroad.com/l/MaterialTextureLoader" target="_blank" rel="noopener noreferrer">Gumroad</a> - <a href="https://www.scriptspot.com/3ds-max/scripts/material-texture-loader" target="_blank" rel="noopener noreferrer">Scriptspot</a></div>
+<h1 align ="center">Table of contents</h1>
 
-***
 ### Table of contents
 - [Support](#support)
   - [Renderers](#renderers)
@@ -17,16 +17,13 @@
   - [Material](#ui_material)
   - [Slot](#ui_slot)
   - [Modifiers](#ui_modifiers)
+<br>
+<h1 align="center">Support</h1><a name="ui"></a>
 
-### Description <a name="description"></a>
-Documentation for UI an maxScript API.  
-Material Texture Loader is a plugin for 3ds Max that creates advanced material setups from textures sets.
-***
+### 3ds Max <a name="renderers"></a>
+- 2016-2025
 
-# Support <a name="support"></a>
-- 3ds Max 2016-2025
-
-### Renderers <a name="renderers"></a>
+### Renderers and materials <a name="renderers"></a>
 - Vray(v3-6)
 - Corona(v5-10)
 - Redshift
@@ -54,8 +51,8 @@ Material Texture Loader is a plugin for 3ds Max that creates advanced material s
 4. Add any word after the equal ('=') character, separated by a comma (','). These words are used to select textures for the right channel.
 5. You can have up to 12 different .ini naming filter files, which all can be separately activated and combined in the MTL.
 
-***
-<h1>User Interface</h1><a name="ui"></a>
+<br>
+<h1 align="center">User Interface</h1><a name="ui"></a>
 <img src="images/TopMenu_001.jpg" align="right" width="400"></img>
 <h3>Top Menu</h3><a name="ui_topmenu"></a>
 <details>
